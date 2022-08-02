@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "mfp_boots",
+  "version": "${version}",
+  "name": "MyFavouritePair",
+  "description": "",
+  "authors": [
+    "ella"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/mfp_boots/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "com.github.voxxin.mfp_boots.client.Mfp_bootsClient"
+    ],
+    "main": [
+      "com.github.voxxin.mfp_boots.Mfp_boots"
+    ]
+  },
+  "mixins": [
+    "mfp_boots.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.8",
+    "fabric": "*",
+    "minecraft": "1.19.1"
+  }
+}
