@@ -1,6 +1,0 @@
-{
-  "parent": "item/generated",
-  "textures": {
-    "layer0": "my_favourite_pair:item/wool_leather_boots"
-  }
-}

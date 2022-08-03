@@ -9,18 +9,18 @@
   ],
   "contact": {},
   "license": "MIT",
-  "icon": "assets/mfp_boots/icon.png",
+  "icon": "assets/my_favourite_pair/icon.png",
   "environment": "*",
   "entrypoints": {
     "client": [
-      "com.github.voxxin.mfp_boots.client.Mfp_bootsClient"
+      "com.github.voxxin.my_favourite_pair.client.MyFavouritePairClient"
     ],
     "main": [
-      "com.github.voxxin.mfp_boots.Mfp_boots"
+      "com.github.voxxin.my_favourite_pair.MyFavouritePair"
     ]
   },
   "mixins": [
-    "mfp_boots.mixins.json"
+    "my_favourite_pair.mixins.json"
   ],
   "depends": {
     "fabricloader": ">=0.14.8",

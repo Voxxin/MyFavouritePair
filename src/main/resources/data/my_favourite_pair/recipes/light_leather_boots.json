@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " # ",
+    " % ",
+    "   "
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:leather_boots"
+    },
+    "%": {
+      "item": "minecraft:rabbit_hide"
+    }
+  },
+  "result": {
+    "item": "my_favourite_pair:light_leather_boots"
+  }
+}

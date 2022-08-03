@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "#minecraft:my_favourite_pair:woolly_boots",
+      "required": true
+    }
+  ]
+}
