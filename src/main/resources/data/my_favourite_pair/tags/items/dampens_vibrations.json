@@ -2,7 +2,7 @@
   "replace": false,
   "values": [
     {
-      "id": "#minecraft:my_favourite_pair:woolly_boots",
+      "id": "#my_favourite_pair:woolly_boots",
       "required": true
     }
   ]
