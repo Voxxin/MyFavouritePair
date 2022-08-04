@@ -6,7 +6,8 @@
   "mixins": [
     "FallDamageMixin",
     "SinkingMixin",
-    "WalkingOnPowderSnowMixin"
+    "WalkingOnPowderSnowMixin",
+    "WalkQuitetlyMixin"
   ],
   "client": [
   ],
