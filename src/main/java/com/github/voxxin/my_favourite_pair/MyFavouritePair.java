@@ -1,6 +1,6 @@
 package com.github.voxxin.my_favourite_pair;
 
-import com.github.voxxin.my_favourite_pair.item.ModItems;
+import com.github.voxxin.my_favourite_pair.item.MFPItems;
 import net.fabricmc.api.ModInitializer;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -12,7 +12,7 @@ public class MyFavouritePair implements ModInitializer {
     @Override
     public void onInitialize() {
 
-        ModItems.registerModItems();
+        MFPItems.registerModItems();
 
     }
 }

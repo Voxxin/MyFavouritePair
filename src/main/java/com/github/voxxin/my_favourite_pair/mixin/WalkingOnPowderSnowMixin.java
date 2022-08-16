@@ -1,6 +1,6 @@
 package com.github.voxxin.my_favourite_pair.mixin;
 
-import com.github.voxxin.my_favourite_pair.item.ModItems;
+import com.github.voxxin.my_favourite_pair.item.MFPItems;
 import net.minecraft.block.PowderSnowBlock;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.EntityPose;
@@ -17,7 +17,7 @@ public class WalkingOnPowderSnowMixin {
 
     @Inject(method = "canWalkOnPowderSnow(Lnet/minecraft/entity/Entity;)Z", at = @At("HEAD"), cancellable = true)
     private static void mixin(Entity entity, CallbackInfoReturnable<Boolean> ci) {
-        if (entity instanceof LivingEntity && ((LivingEntity) entity).getEquippedStack(EquipmentSlot.FEET).isOf(ModItems.LEATHER_RABBIT_HIDE)) {
+        if (entity instanceof LivingEntity && ((LivingEntity) entity).getEquippedStack(EquipmentSlot.FEET).isOf(MFPItems.LEATHER_RABBIT_HIDE)) {
             ci.setReturnValue(true);
         } else if (entity instanceof LivingEntity && ((LivingEntity) entity).isSprinting() && !(((LivingEntity) entity).isInPose(EntityPose.CROUCHING))) {
             if (((LivingEntity) entity).getEquippedStack(EquipmentSlot.FEET).isOf(Items.LEATHER_BOOTS)) {

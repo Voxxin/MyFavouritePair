@@ -10,7 +10,7 @@ import net.minecraft.util.Lazy;
 
 import java.util.function.Supplier;
 
-public enum ModArmorMaterials implements ArmorMaterial {
+public enum MFPArmorMaterials implements ArmorMaterial {
     LEATHER_WOOL("woolly_leather_boots", 3, new int[]{2, 2, 3, 1}, 15,
             SoundEvents.ITEM_ARMOR_EQUIP_LEATHER, 0.0F, 0.0F, () ->
         Ingredient.ofItems(Items.LEATHER_BOOTS, Items.WHITE_WOOL)),
@@ -31,7 +31,7 @@ public enum ModArmorMaterials implements ArmorMaterial {
     private final float knockbackResistance;
     private final Lazy<Ingredient> repairIngredientSupplier;
 
-    private ModArmorMaterials(String name, int durabilityMultiplier, int[] protectionAmounts, int enchantability, SoundEvent equipSound, float toughness, float knockbackResistance, Supplier repairIngredientSupplier) {
+    private MFPArmorMaterials(String name, int durabilityMultiplier, int[] protectionAmounts, int enchantability, SoundEvent equipSound, float toughness, float knockbackResistance, Supplier repairIngredientSupplier) {
         this.name = name;
         this.durabilityMultiplier = durabilityMultiplier;
         this.protectionAmounts = protectionAmounts;

@@ -3,6 +3,7 @@
   "values": [
     {
       "woolly": "#my_favourite_pair:woolly_boots",
+      "heavy": "#my_favourite_pair:heavy_boots",
       "required": true
     }
   ]

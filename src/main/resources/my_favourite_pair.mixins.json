@@ -4,6 +4,7 @@
   "package": "com.github.voxxin.my_favourite_pair.mixin",
   "compatibilityLevel": "JAVA_17",
   "mixins": [
+    "DontFreezeMixin",
     "FallDamageMixin",
     "SinkingMixin",
     "WalkingOnPowderSnowMixin",
